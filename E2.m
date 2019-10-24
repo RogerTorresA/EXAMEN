@@ -1,4 +1,4 @@
-ini_val=-1
+ini_val=0
 i=1
 e(i)=10
 x1=-1
