@@ -9,8 +9,8 @@ while(e(i)>0.001)
     end
  
      
-    fx= cos(x(i)+1)-sin(x(i)+1)+0.8
-    fpx= -sin(x(i)+1)-cos(x(i)+1)
+    fx= sin(x(i))+cos(x(i))-1.2
+    fpx=cos(x(i)) - sen(x(i)) 
     
      x(i+1)= (x(i))-(fx / fpx)
     i= i+1;
