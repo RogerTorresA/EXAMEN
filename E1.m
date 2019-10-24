@@ -7,9 +7,9 @@ while(e(i) > 0.001)
     
     xr=(xl+xu)/2
     
-    fxl=(xl^3)+4*(xl^2)-10
-    fxr=(xr^3)+4*(xr^2)-10
-    fxu=(xu^3)+4*(xu^2)-10
+    fxl=(xl)-2^(-xl)
+    fxr=(xr)-2^(-xr)
+    fxu=(xu)-2^(-xu)
     
     if(fxl*fxr < 0)
         xu=xr
