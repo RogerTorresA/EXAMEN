@@ -1,9 +1,9 @@
 i=1
-xl=1
-xu=2
+xl=0
+xu=1
 e(i)=10
-
-while(e(i) > 0.001)
+ 
+while (e(i)>0.001)
     
     xr=(xl+xu)/2
     
