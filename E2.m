@@ -10,7 +10,7 @@ while(e(i)>0.001)
  
      
     fx= sin(x(i))+cos(x(i))-1.2
-    fpx=cos(x(i)) - sen(x(i)) 
+    fpx=cos(x(i)) - sin(x(i)) 
     
      x(i+1)= (x(i))-(fx / fpx)
     i= i+1;
